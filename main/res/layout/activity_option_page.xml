@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.option_page"
+    android:background="@color/yellow">
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/logo_option"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/option"
+        android:transitionName="logo_image" />
+        <Button
+            android:id="@+id/admin_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt"
+            android:layout_marginTop="500dp"
+            android:text="ADMIN"
+            android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/user_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_marginLeft="250dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bt"
+        android:text="User" />
+</RelativeLayout>
